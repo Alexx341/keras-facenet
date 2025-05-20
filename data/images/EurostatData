@@ -1,0 +1,58 @@
+travel_data_sources:
+  ppp_prices:
+    title: "Purchasing Power Parities (PPP)"
+    eurostat_link: "https://ec.europa.eu/eurostat/databrowser/view/tec00120/default/table?lang=en&category=t_prc.t_prc_ppp"
+    api: "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tec00120?format=JSON"
+
+  infrastructure:
+    roads:
+      motorways_and_eroads:
+        title: "Length of motorways and e-roads"
+        link: "https://ec.europa.eu/eurostat/databrowser/view/road_if_motorwa/default/table?lang=en&category=road.road_if"
+      roadsc_by_level:
+        title: "Length of state, provincial and communal roads"
+        link: "https://ec.europa.eu/eurostat/databrowser/view/road_if_roadsc/default/table?lang=en&category=road.road_if"
+      roads_by_area_type:
+        title: "Length of other roads within/outside built-up areas"
+        link: "https://ec.europa.eu/eurostat/databrowser/view/road_if_barea/default/table?lang=en&category=road.road_if"
+      paved_vs_unpaved:
+        title: "Length of paved and unpaved roads"
+        link: "https://ec.europa.eu/eurostat/databrowser/view/road_if_bsurfa/default/table?lang=en&category=road.road_if"
+
+    railways:
+      total_length:
+        title: "Length of railway lines"
+        link: "https://ec.europa.eu/eurostat/databrowser/view/rail_if_line/default/table?lang=en&category=rail.rail_if"
+      electrified_lines:
+        title: "Length of electrified railway lines"
+        link: "https://ec.europa.eu/eurostat/databrowser/view/rail_if_linesec/default/table?lang=en&category=rail.rail_if"
+
+    airports:
+      passenger_airports:
+        title: "Number of passenger airports"
+        link: "https://ec.europa.eu/eurostat/databrowser/view/trn_ap_airp/default/table?lang=en&category=tran.trn_ap"
+      air_passenger_traffic:
+        title: "Air passenger transport by main airports"
+        link: "https://ec.europa.eu/eurostat/databrowser/view/avia_paoaa/default/table?lang=en&category=tran.trn_avia"
+
+    public_transport:
+      urban_tram_metro:
+        title: "Length of urban tram and metro networks"
+        link: "https://ec.europa.eu/eurostat/databrowser/view/rail_if_urbar/default/table?lang=en&category=rail.rail_if"
+      passenger_transport_volume:
+        title: "Passenger transport volume in public transport"
+        link: "https://ec.europa.eu/eurostat/databrowser/view/trn_apyv/default/table?lang=en&category=tran.trn_apy"
+
+  mobility_indicators:
+    vehicle_ownership:
+      title: "Number of passenger cars per 1000 inhabitants"
+      link: "https://ec.europa.eu/eurostat/databrowser/view/road_eqs_carpda/default/table?lang=en&category=road.road_eqs"
+
+    commuting_times:
+      title: "Average commuting time to work (national statistics if available)"
+      note: "Eurostat doesn't provide harmonized commuting time; refer to national sources or survey microdata like EU-SILC or LFS."
+
+    digital_navigation:
+      title: "Digital economy and GPS penetration (proxy: DESI Index)"
+      link: "https://digital-strategy.ec.europa.eu/en/policies/desi"
+
